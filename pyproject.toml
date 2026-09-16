@@ -25,6 +25,9 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
+[tool.coverage.run]
+source_pkgs = ["planilla"]
+
 [tool.ruff]
 line-length = 88
 
